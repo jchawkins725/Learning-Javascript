@@ -1,2 +1,2 @@
 # Learning-Javascript
-testing various algorithms
+As a self-taught coder, I am attempting various javascript algorithms.
