@@ -8,7 +8,7 @@ function rot13(str) { // LBH QVQ VG!
       unicodeString[i]-=13;
     }
     else {
-      ;
+      unicodeString[i];
     }
   }
   return String.fromCharCode(...unicodeString)
