@@ -1,4 +1,4 @@
-function rot13(str) { // LBH QVQ VG!
+function rot13(str) {
   let unicodeString = str.split("").map(x => x.charCodeAt());
   for (let i=0; i<unicodeString.length; i++) {
     if (unicodeString[i] >= 65 && unicodeString[i]<=77) {

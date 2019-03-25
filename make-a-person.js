@@ -1,5 +1,4 @@
 var Person = function(firstAndLast) {
-  // Complete the method below and implement the others similarly
   let name = firstAndLast
   this.getFullName = function() {
     return name;
