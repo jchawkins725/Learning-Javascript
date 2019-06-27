@@ -13,7 +13,7 @@ function accum(s) {
         newString += s[i].toLowerCase();
       }
       count++;
-      if (s[i] != s[s.length -1]) {
+      if (i != s.length-1) {
         newString += "-";
       }
     }
